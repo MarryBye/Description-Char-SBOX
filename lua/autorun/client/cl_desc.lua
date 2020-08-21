@@ -10,7 +10,7 @@ function MDESC.ButtonActivateDesc(ply, button)
 			
 			"Введите описание вашего персонажа ниже: ",
 			
-			"",
+			ply:GetNWString('Desc', 'Описание персонажа отсутствует.'),
 			
 			function(text) 
 
